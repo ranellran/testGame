@@ -105,10 +105,6 @@ class Mario:
         if self.down:
             self.mario_img_rect.bottom += 10
 
-
-
-
-
 def start_game():
     canvas.fill(BLACK)
     start_img = pygame.image.load('start.png')
@@ -146,10 +142,6 @@ def check_level(SCORE):
         cactus_img_rect.bottom = 200
         fire_img_rect.top = WINDOW_HEIGHT - 200
         LEVEL = 4
-
-
-
-
 
 def game_loop():
     while True:
